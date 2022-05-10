@@ -1,0 +1,9 @@
+geo:
+    css: p.address
+    multiple: true
+    type: Text
+    children:
+        address:
+            css: a
+            type: Attribute
+            attribute: data-atlas-latlng

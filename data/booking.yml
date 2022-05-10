@@ -1,0 +1,26 @@
+hotels:
+    css: div.sr__card_main_row
+    multiple: true
+    type: Text
+    children:
+        url:
+            css: a
+            type: Link
+        name:
+            css: span.bui-card__title
+            type: Text
+        star:
+            css: span.invisible_spoken
+            type: Text
+        price:
+            css: div.bui-price-display__value
+            type: Text
+        rating:
+            css: div.bui-review-score__badge
+            type: Text
+        rating_title:
+            css: div.bui-review-score__title
+            type: Text
+        number_of_ratings:
+            css: div.bui-review-score__text
+            type: Text
